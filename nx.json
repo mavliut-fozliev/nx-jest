@@ -31,10 +31,9 @@
     {
       "plugin": "@nx/jest/plugin",
       "options": {
-        "targetName": "test",
-        "coverage": true
+        "targetName": "test"
       },
-      "exclude": ["apps/mava-e2e/**/*"]
+      "exclude": ["**/*-e2e/**/*"]
     }
   ]
 }

@@ -1,5 +1,7 @@
 export function init() {
-  return 'Hello World';
+  const helloWorld = 'Hello World';
+  console.log(helloWorld);
+  return helloWorld;
 }
 
 init();
